@@ -33,7 +33,7 @@ lspconfig.lua_ls.setup({
   settings = {
     Lua = {
       diagnostics = {
-        -- enable = false, -- Disable all diagnostics from lua_ls
+        enable = false, -- Disable all diagnostics from lua_ls
         -- globals = { "vim" },
       },
       workspace = {
